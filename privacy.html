@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GpuTerm Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="nav"><a href="./">GpuTerm</a> · Privacy Policy</p>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective October 19, 2026</p>
+
+<p class="lead">GpuTerm does not collect your data. The app has no accounts, analytics,
+advertising, tracking or third-party SDKs, and the developer runs no server that
+the app talks to. What you enter stays on your device, goes to servers you
+configure yourself, or syncs through your own iCloud account if you turn that on.</p>
+
+<h2>Data stored on your device</h2>
+<p>To work as an SSH client, GpuTerm keeps the following in the app's private storage on your device:</p>
+<ul>
+  <li>Server profiles: host names, user names, ports, jump hosts and port forwards</li>
+  <li>Fingerprints of the server host keys you trusted</li>
+  <li>SSH private keys you import or generate in the app</li>
+  <li>Passwords and API keys you choose to save, kept in the iOS Keychain</li>
+  <li>Command snippets, LLM endpoint settings, monitoring and alert settings, and display preferences</li>
+  <li>A small cache of server status for the Home Screen widget</li>
+</ul>
+<p>The developer cannot access any of this data. Deleting the app removes it from the device,
+except for Keychain items and iCloud data, which iOS manages.</p>
+
+<h2>Connections to your servers</h2>
+<p>GpuTerm connects only to the SSH servers and LLM endpoints (such as Ollama or vLLM) that you add.
+Terminal input, file transfers and monitoring commands go directly from your device to those servers.
+Commands you run, and actions such as stopping a process or deleting a file, take effect on your
+servers with your account's permissions. iOS asks for local network permission so the app can reach
+servers on your network.</p>
+
+<h2>Optional iCloud sync</h2>
+<p>If you turn on iCloud sync, GpuTerm stores profiles, snippets and trusted host keys in your iCloud
+key-value storage. Saved passwords that don't require Face ID sync through iCloud Keychain. Private keys,
+and passwords that require Face ID, never leave the device. This data is held by Apple under
+<a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; the developer cannot read it.
+Turn sync off under Sessions › Security.</p>
+
+<h2>Sync files you export</h2>
+<p>"Export sync file" saves profiles, snippets and trusted host keys as an unencrypted JSON file in a
+place you choose. It doesn't include passwords or private keys. Who can read the file depends on where
+you save or share it.</p>
+
+<h2>Face ID and app lock</h2>
+<p>Face ID and passcode checks are performed by iOS. GpuTerm only receives a success or failure result
+and never has access to biometric data.</p>
+
+<h2>Notifications, widgets and Shortcuts</h2>
+<p>Alert notifications are created on your device; GpuTerm uses no push notification service.
+Notifications, widgets and Shortcuts can show server names and resource readings on your Lock Screen
+or Home Screen, subject to your iOS settings.</p>
+
+<h2>Crash reports</h2>
+<p>If you allow "Share with App Developers" in iOS Settings › Privacy & Security › Analytics & Improvements,
+Apple may send the developer anonymous crash and performance reports. GpuTerm adds no crash reporting of its own.</p>
+
+<h2>Children</h2>
+<p>GpuTerm is a tool for managing servers and is not directed at children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:vin9604@gmail.com">vin9604@gmail.com</a></p>
+</main>
+</body>
+</html>

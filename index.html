@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GpuTerm Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="nav">GpuTerm · <a href="privacy.html">Privacy Policy</a></p>
+<h1>GpuTerm Support</h1>
+<p class="lead">GpuTerm is an SSH terminal, SFTP file browser and live GPU, thermal and LLM monitor
+for iPhone and iPad. It requires iOS 26 or later and an SSH server you can sign in to.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:vin9604@gmail.com">vin9604@gmail.com</a>. Include your device model, iOS version,
+GpuTerm version (shown under Sessions › About) and the server's operating system. Please don't send
+passwords or private keys.</p>
+
+<h2>Common questions</h2>
+
+<h3>The app can't reach a server on my network</h3>
+<p>Allow local network access under iOS Settings › Privacy & Security › Local Network › GpuTerm, then try again.</p>
+
+<h3>GpuTerm says the host key changed</h3>
+<p>The server presented a different key from the one you trusted. This is expected after reinstalling
+the server's operating system or SSH service. Otherwise, it could mean someone is intercepting the
+connection. Check the new fingerprint with the server's administrator before replacing the key.</p>
+
+<h3>The Monitor shows no GPU data</h3>
+<p>GPU readings come from the vendor's command-line tools on the server, such as <code>nvidia-smi</code>.
+Make sure the tool is installed and works for your SSH user.</p>
+
+<h3>What does iCloud sync include?</h3>
+<p>Profiles, snippets and trusted host keys. Passwords that don't require Face ID sync through iCloud
+Keychain. Private keys stay on each device. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+<h3>How do I move my servers to a new device without iCloud?</h3>
+<p>Use Sessions › Security › Export sync file, then Import sync file on the new device. Re-enter passwords
+and import private keys on the new device.</p>
+
+<h3>Where can I find open-source licenses?</h3>
+<p>In the app, under Sessions › About › Licenses.</p>
+</main>
+</body>
+</html>
